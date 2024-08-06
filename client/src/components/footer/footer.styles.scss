@@ -1,0 +1,37 @@
+footer {
+  padding: 20px 20px 20px 30px;
+  background-color: #3b3b5c;
+  color: white;
+}
+
+.footer-brand-name {
+  padding-top: 50px;
+}
+.footer-logo {
+  margin-left: 10px;
+}
+.footer-list {
+  list-style: none;
+  margin-left: -40px;
+  line-height: 30px;
+  color: #9695a4;
+}
+.footer-list a {
+  color: #9695a4;
+}
+.subscribe-input {
+  border-radius: 5px;
+  width: 80%;
+}
+
+.subscribe-btn {
+  border-radius: 5px;
+  background-color: #f04c37;
+  width: 120px;
+  color: white;
+  font-size: 12px;
+}
+
+.footer-nav-link {
+  text-decoration: none !important;
+}

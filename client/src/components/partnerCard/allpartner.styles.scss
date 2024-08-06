@@ -1,0 +1,32 @@
+.all-partner-wrapper {
+  border: 1px solid rebeccapurple;
+  margin: 20px;
+}
+.view-prifile-link {
+  color: red;
+}
+.view-prifile-link:hover {
+  color: red;
+  text-decoration: none;
+}
+.bdr-right {
+  border-right: 1px solid gray;
+}
+.overallRating {
+  padding: 40px 40px;
+  margin-top: 20px;
+}
+.customer-review-all {
+  border: 0.5px solid gray;
+  margin: 10px 100px;
+  padding: 10px;
+}
+.partner-wrapper-all {
+  background-color: #fff;
+  margin: 20px 100px !important;
+  padding-bottom: 50px;
+}
+.partner-pagination {
+  display: flex;
+  justify-content: center;
+}

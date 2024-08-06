@@ -1,0 +1,84 @@
+.navbar-light {
+  background-color: #3b3b5c !important;
+}
+
+.profile-pic {
+  height: 35px;
+}
+
+.navbar-light .navbar-brand {
+  color: white !important;
+  margin-left: 20px;
+}
+
+.become-partner {
+  color: white !important;
+  padding-right: 10px;
+  size: 50px !important;
+  padding-left: 10px;
+}
+.fa-users-cog {
+  font-size: 25px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
+// .option {
+//   padding-left: 20px;
+//   margin-top: 4px;
+// }
+.dropdown {
+  position: relative;
+  /* margin-right: auto; */
+  margin-left: auto;
+}
+
+.navbar-expand-md .navbar-collapse {
+  margin-left: 30px;
+}
+
+.option {
+  padding-left: 20px;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.header-sub-menu ul {
+  list-style: none;
+  display: flex;
+  direction: column;
+  margin-bottom: 0;
+  padding: 10px 20px;
+  background: #37374a;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.header-sub-menu ul li {
+  color: white;
+}
+.become-partner-link {
+  text-decoration: none !important;
+}
+
+.become-partner-link:hover {
+  color: white;
+}
+
+.headre-nav-link {
+  text-decoration: none !important;
+}
+.headre-nav-link:hover {
+  color: white !important;
+}
+.select-city {
+  margin-left: 50px;
+  padding-left: 50px;
+  color: white;
+}
+
+.dropdown-color {
+  color: black !important;
+}

@@ -1,0 +1,86 @@
+.sign-in-parent {
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
+    justify-content: center;
+    // align-items: flex-start;
+}
+
+.sign-in-image img {
+    width: 81%;
+    height: 100vh;
+}
+
+.sign-in-image h1 {
+    color: white;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 100px;
+    left: 3%;
+}
+
+.sign-in {
+    width: 420px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 6%;
+
+    .title {
+        margin: 10px 0;
+        font-weight: bolder;
+        align-self: center;
+    }
+
+    span {
+        align-self: center;
+        color: grey;
+
+        strong {
+            color: black;
+        }
+    }
+
+    .form-input-invalid {
+        border: 1px solid red !important;
+    }
+
+    // .buttons {
+    //     width: 80px;
+    //     display: flex;
+    // }
+}
+
+// @media screen and (max-width: 768px) {
+//     .sign-in {
+//         width: 100%;
+//         margin: 0 10px;
+//     }
+// }
+
+@media screen and (max-width: 967px) and (min-width: 769px) {
+    .sign-in {
+        width: 63%;
+        margin: 0 10px;
+    }
+}
+
+
+
+#terms {
+    margin-top: 10px;
+    color: grey;
+
+    strong {
+        color: black !important;
+    }
+}
+
+.required-field {
+    font-size: 12px;
+    color: brown;
+    top: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: -30px;
+}

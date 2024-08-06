@@ -1,0 +1,76 @@
+$sub-color: rgb(173, 172, 172);
+$main-color: black;
+
+@mixin shrinkLabel {
+  top: -18px;
+  font-size: 15px;
+  color: $main-color;
+}
+
+.group {
+  position: relative;
+  margin: 37px 0;
+
+  .form-input {
+    background: none;
+    background-color: white;
+    color: rgb(90, 88, 88);
+    font-size: 18px;
+    padding: 5px 10px 5px 0;
+    display: block;
+    width: 100%;
+    border: 1px solid $sub-color;
+    border-radius: 6px;
+    // border-bottom: 1px solid $sub-color;
+    margin: 10px 0;
+
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus~.form-input-label {
+      @include shrinkLabel();
+    }
+
+    &:focus~.required-field {
+      top: -14px;
+    }
+  }
+
+  input[type="password"] {
+    letter-spacing: 0.3em;
+  }
+
+   input[type="radio"] {
+     position: relative;
+     top: -12px;
+   }
+
+  .form-input-label {
+    color: $sub-color;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 300ms ease all;
+
+    &.shrink {
+      @include shrinkLabel();
+    }
+  }
+}
+
+
+div .isError {
+  color: red;
+  font-size: 12px;
+  margin-top: -40px;
+  margin-bottom: 0px;
+}
+
+div .isError :last-child {
+  margin-bottom: 10px;
+}

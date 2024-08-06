@@ -1,0 +1,37 @@
+.home-maintenance-heading {
+  font-weight: 600;
+}
+.home-maintenance-wrapper ul {
+  list-style: none;
+  display: flex;
+  direction: column;
+  justify-content: space-around;
+  font-size: 12px;
+}
+
+.home-maintenance-wrapper img {
+  height: 50px;
+  width: 50px;
+  margin-top: 30px;
+}
+
+.img-category {
+  width: 50px !important;
+  height: 50px !important;
+  margin: auto;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.category-text {
+  font-size: 12px;
+  color: gray !important;
+}
+
+.category-text :hover {
+  text-decoration: none;
+  color: gray;
+}
+.cat-link {
+  text-decoration: none !important;
+}
