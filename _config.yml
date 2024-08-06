@@ -1,0 +1,27 @@
+title: My Jekyll Site
+description: This is my awesome Jekyll site.
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# Exclude directories
+exclude:
+  - node_modules
+  - vendor
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
+
+# Other Jekyll configurations
+theme: jekyll-theme-primer
+plugins:
+  - jekyll-seo-tag
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
